@@ -1,39 +1,84 @@
+/* Fonts and Vibes */
 body {
-  font-family: 'Georgia', serif;
-  background: #fff8f0;
-  color: #333;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 2rem;
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fffaf3;
+  font-family: 'Patrick Hand', cursive;
+  color: #4b3f39;
 }
 
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header Styling */
 header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e29578;
 }
 
 .subtitle {
-  color: #999;
+  font-size: 1.2rem;
+  color: #a8876b;
   font-style: italic;
 }
 
+/* Entry Styles */
 .entry {
-  background: #fff;
-  border-left: 4px solid #f4a261;
-  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border-left: 6px solid #ffb4a2;
+  padding: 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.05);
 }
 
-h1, h2 {
-  color: #e76f51;
+.entry h2 {
+  color: #ff758f;
+  margin-top: 0;
 }
 
+.entry p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.entry-img {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
 footer {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  color: #a4a4a4;
   margin-top: 4rem;
-  color: #aaa;
+}
+
+.kofi-btn {
+  background-color: #ff5f5f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.kofi-btn:hover {
+  background-color: #e94f4f;
 }
 
